@@ -1,6 +1,6 @@
-# Tangram BufReader and BufWriter example
+# BufReader and BufWriter example
 
-As discussed with the tangram team, I would complete the assigned problem where I would attempt to do the following:
+This does the following:
 
 * Read from `stdin` using BufReader, one byte at a time
 * Capitalize the character from lower case to upper case
@@ -9,8 +9,9 @@ As discussed with the tangram team, I would complete the assigned problem where 
 Included is a sample text file that looks like this:
 
 ```
-tangram
-interview
+this
+is
+a
 sample
 file
 ```
@@ -24,8 +25,9 @@ cat sample.txt | cargo run
 The expected output looks like this, making the letters uppercase and also printing the newlines:
 
 ```
-TANGRAM
-INTERVIEW
+THIS
+IS
+A
 SAMPLE
 FILE
 ```
