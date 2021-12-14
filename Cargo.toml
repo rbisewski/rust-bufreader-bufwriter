@@ -1,5 +1,5 @@
 [package]
-name = "tangram-bufreader-bufwriter"
+name = "rust-bufreader-bufwriter"
 version = "1.0.0"
 edition = "2021"
 
